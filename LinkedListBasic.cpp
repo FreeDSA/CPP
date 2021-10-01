@@ -2,9 +2,6 @@
 #include<iostream>
 
 using namespace std;
-
-// First pr
-
 class node{
     public:
     int data;
