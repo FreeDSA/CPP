@@ -19,7 +19,12 @@ void max_min_array(int arr[], int size)
 
 int main()
 {
-    int arr[] = { 1000, 11, 445, 1, 330, 3000 };
-    int arr_size = sizeof(arr)/sizeof(arr[0]);
-    max_min_array(arr, arr_size);
+    int arr[],n;
+    cout<<"enter the number of elements in the array"<<endl;
+    cin>>n;
+    cout<<"enter the array elements"<<endl;
+    for(int i=0;i<n;i++)
+        cin>>arr[i];
+     
+    max_min_array(arr, n);
 }
